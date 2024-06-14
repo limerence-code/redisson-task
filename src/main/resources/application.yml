@@ -1,0 +1,24 @@
+
+server:
+  port: 6666
+
+
+spring:
+  application:
+    name: redisson-task
+  main:
+    allow-bean-definition-overriding: true
+  data:
+    redis:
+      # 数据库
+      database: 0
+      # 主机
+      host: 10.10.103.15
+      # 端口
+      port: 6379
+      # 密码
+      password: SJ(Qu%(kfXQBjxyT
+      # 读超时
+      timeout: 5s
+      # 连接超时
+      connect-timeout: 5s
